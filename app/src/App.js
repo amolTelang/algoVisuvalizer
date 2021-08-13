@@ -11,10 +11,9 @@ import Array from './components/Array'
 const App=()=>{
   return(
   <Provider store={store}>
-    <div>
-      
-      <Array/>
-    </div>
+   
+       <Array/>
+   
   </Provider>
   )
 }
