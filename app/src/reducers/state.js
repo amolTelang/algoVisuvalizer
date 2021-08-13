@@ -16,13 +16,16 @@ const initialState={
 
 
 
-
 //reducer
 function stateReducer(state=initialState,action){
     const {type,payload}=action;
     switch(type){
         case GENERATE_RANDOM_ARRAY:
-            return state;
+            return {
+                ...state,
+                array:payload,
+                arraySteps:payload,
+            };
         default:return state;
         
     }
