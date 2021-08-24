@@ -227,7 +227,7 @@ class App extends Component {
 			<div className='app'>
 				<h1 className='page-header_title risetext'>
 					<span className='page-header_title-main enclose'>
-						Sorting Visualizer
+						Algo Vision
 					</span>
 				</h1>
 				
